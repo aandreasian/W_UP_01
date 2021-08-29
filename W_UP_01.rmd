@@ -63,8 +63,15 @@ The skilled players have done more push ups than the line players. The skilled p
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(pushups~position,data=mydata)
+```
+ The P value is 0.000009421 I reject the null hypothesis. I am inferring there is a difference between the skilled and line position players in pushups that can be done in two minutes.
+
+
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The original question of skilled players or line players and how many pushups that can be done in two minutes. The conclusion is that there is a difference between the players. That the skilled players on average could do more push ups than the line position players.
